@@ -8,12 +8,13 @@
 ## Instalación
 
 - Crear una base de datos con nombre "test_db"
-### Linea de comandos
 
 ```
 $ composer install
 
 $ php artisan migrate
+
+$ php artisan db:seed
 
 $ php artisan serve
 ```

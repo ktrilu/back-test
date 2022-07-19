@@ -44,7 +44,10 @@ class ModeloController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $modelo = new Modelo();
+        $modelo->MDL_NOMBRE = $request->MDL_NOMBRE;
+        $modelo->MRC_ID = $request->MRC_ID;
+        $modelo->save();
     }
 
     /**
