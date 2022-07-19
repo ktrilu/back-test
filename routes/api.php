@@ -28,3 +28,5 @@ Route::get('/dispositivos/marca/{id_marca}', 'App\Http\Controllers\DispositivoCo
 Route::get('/dispositivos/modelo/{id_modelo}', 'App\Http\Controllers\DispositivoController@dispositivosModelo');
 
 Route::get('/modelos/marca/{id_marca}', 'App\Http\Controllers\ModeloController@modelosMarca');
+
+Route::post('/dispositivo', 'App\Http\Controllers\DispositivoController@store');

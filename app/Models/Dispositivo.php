@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Dispositivo extends Model
 {
     use HasFactory;
-    protected $fillable = ['DSP_NOMBRE'];
+    public $timestamps = false;
 }
