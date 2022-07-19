@@ -7,12 +7,15 @@
 - XAMPP 3.3.0
 ## Instalación
 
-- nombre de base de datos: test_db
+- Crear una base de datos con nombre "test_db"
 ### Linea de comandos
+
 ```
- $ composer install
- $ php artisan migrate
- $ php artisan serve
+$ composer install
+
+$ php artisan migrate
+
+$ php artisan serve
 ```
 
 
