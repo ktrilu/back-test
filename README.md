@@ -7,7 +7,7 @@
 - XAMPP 3.3.0
 ## Instalación
 
-- Crear una base de datos con nombre "test_db"
+- Crear una base de datos con nombre "test_db" en phpmyadmin
 
 ```
 $ composer install
