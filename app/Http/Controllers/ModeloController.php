@@ -29,7 +29,7 @@ class ModeloController extends Controller
     public function modelosMarca($id_marca)
     {
         $modelos = Modelo::select('modelos.MDL_ID', 'modelos.MDL_NOMBRE', 'marcas.MRC_NOMBRE')
-            ->join('marcas', 'marcas.MRC_ID', '=', 'modelos.MDL_ID')
+            ->join('marcas', 'marcas.MRC_ID', '=', 'modelos.MRC_ID')
             ->where('marcas.MRC_ID', $id_marca)
             ->get();
 
